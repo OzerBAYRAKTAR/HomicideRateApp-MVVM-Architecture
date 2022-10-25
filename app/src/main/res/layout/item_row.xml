@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp">
+<LinearLayout
+    android:id="@+id/homicideLinear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:weightSum="2"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/rankTextAdapter"
+        android:layout_width="50dp"
+        android:layout_weight="1"
+        android:background="#68EAE9"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="1. SIRA"/>
+
+    <TextView
+        android:id="@+id/cityTextAdapter"
+        android:layout_width="50dp"
+        android:layout_weight="1"
+        android:background="#048786"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="EL MEXİCO"/>
+
+
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

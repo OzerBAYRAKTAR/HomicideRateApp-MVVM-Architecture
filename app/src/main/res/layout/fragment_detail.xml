@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.view.DetailFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:text="DETAILS"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/detRank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Rank: "
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/detCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="City: "
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/detCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Country: "
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/detHomicide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Homicides : "
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/detPopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Population : "
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/detPerHomicide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Homicides per 100,000: "
+        android:textSize="24sp"/>
+
+
+
+
+
+</LinearLayout>
+</layout>
